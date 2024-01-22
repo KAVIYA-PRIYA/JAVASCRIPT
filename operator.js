@@ -1,5 +1,5 @@
 //Assignment operator
-var a=10
+/*var a=10
 console.log("Assignment operator output:",a)
 //Aritgemetic operator:
 var b=0
@@ -13,7 +13,7 @@ console.log(typeof(a))
 
 /*console.log("logical opeartor and output:",a||b)
 console.log("logical  opeartor or output:",a&&b)
-console.log("logical opeartor not output:",!b)*/
+console.log("logical opeartor not output:",!b)
 console.log("Logical operator:",10&&30)
 console.log("Logical operator:",30&&10)
 console.log("Logical operator:",0&&30)
@@ -26,7 +26,18 @@ console.log("Logical operator:",10||0)
 
 console.log("Logical operator:",!10)
 console.log("Logical operator:",!0)
-console.log("Logical operator:",!-10)
+console.log("Logical operator:",!-10)*/
+
+//RELATIONAL OPERATOR <,>,<=,>=,===,!==
+aR=10
+bR=20
+console.log("Relational opreator:",aR>bR)
+console.log("Relational opreator:",aR>=bR)
+console.log("Relational opreator:",aR<bR)
+console.log("Relational opreator:",aR<=bR)
+console.log("Relational opreator:",aR===bR)
+console.log("Relational opreator:",aR!==bR)
+
 
 
 
