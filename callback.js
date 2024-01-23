@@ -34,10 +34,23 @@ ramusomu("hello ramu and somu",miniAni)*/
 //   }
   
 //   doAsyncTask(asyncCallback);
-function displayHello() {
+/*function displayHello() {
     console.log('hello');
 }
 
 
-setInterval(displayHello, 2000);
+setInterval(displayHello, 2000);*/
+function submitForm(buttonClick,db){
+    setTimeout(function(){
+        console.log(buttonClick)
+        db();
+    },2000)
+}
+function database(){
+    console.log("Form submitted successfully")
 
+
+}
+
+submitForm("Form Submit button clicked",database)
+w2
